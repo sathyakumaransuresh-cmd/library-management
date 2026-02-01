@@ -96,12 +96,12 @@ def stock():
     stock_window.configure(bg='light blue')
 
     
-photo=tk.PhotoImage(file="E:/project backup/total - Copy.png")
+photo=tk.PhotoImage(file="total.png")
 label=tk.Label(image=photo,bg='light cyan')
 label.place(x=310,y=-50)
-photo_issuebutton=tk.PhotoImage(file="E:/project backup/kk.png")
-photo_viewbutton=tk.PhotoImage(file="E:/project backup/kk.png")
-photo_stockbutton=tk.PhotoImage(file="E:/project backup/kk.png")
+photo_issuebutton=tk.PhotoImage(file="kk.png")
+photo_viewbutton=tk.PhotoImage(file="kk.png")
+photo_stockbutton=tk.PhotoImage(file="kk.png")
 issuebutton=tk.Button(frame,height=180,width=380,image=photo_issuebutton,bg='light cyan',command=issuetab)
 viewbutton=tk.Button(frame,height=180,width=380,image=photo_viewbutton,bg='light cyan',command=view)
 stockbutton=tk.Button(frame,height=180,width=380,image=photo_stockbutton,bg='light cyan',command=stock)
